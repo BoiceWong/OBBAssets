@@ -1,5 +1,3 @@
-Access-Control-Allow-Origin: *
-
 var myQuestions = [
   {
     question: "Where do you live?",
