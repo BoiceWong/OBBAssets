@@ -96,8 +96,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
       userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
 	  userResult = answerContainers[i];
-	  console.log(userAnswer)
-	  console.log(userResult)
       switch(userAnswer) {
 		case 'North America':			
 			resultString += "Look here for paper recommendations: <a href='https://www.obb.design/paper-resources'>OBB Paper Blog</a> <br/><br/>"
@@ -183,16 +181,15 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			+ "It can take an excellent shaped model into the insane range. "
 			+ "Tertiary shaping is surface level shaping. This is where artistry and dexterity shine. Not all models need this phase, but it is good to explore. "			
 			+ "Here are some good examples of Tertiary Shaping: <br/>"
-			+ "Mayuncchi: <a href='https://www.instagram.com/mayuncchigami/'><a/> <br/>"
-			+ "Reaper: <a href='https://www.instagram.com/reaper_origami/'><a/> <br/>"
-			+ "Kei Watanabe: <a href='https://www.flickr.com/photos/145614922@N07'><a/> <br/>"
-			+ "Eric Joisel: <a href='http://www.ericjoisel.fr/en/home/'><a/> <br/>"
+			+ "<a href='https://www.instagram.com/mayuncchigami/'>Mayuncchi:<a/> <br/>"
+			+ "<a href='https://www.instagram.com/reaper_origami/'>Reaper:<a/> <br/>"
+			+ "<a href='https://www.flickr.com/photos/145614922@N07'>Kei Watanabe:<a/> <br/>"
+			+ "<a href='http://www.ericjoisel.fr/en/home/'>Eric Joisel:<a/> <br/>"
 			+ "For further understanding about the stages of shaping. Try selecting the other answers to browse the explanations. <br/><br/>"			
 			break;
 		default:
 			console.log('Error Case')
 	  }
-      console.log(resultString)
     }
     resultsContainer.innerHTML = resultString;
   }
@@ -200,7 +197,5 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
   submitButton.onclick = function(){
     showResults(questions, quizContainer, resultsContainer);
   }
-// Host on Google Drive
-// https://drive.google.com/uc?export=view&id=1Yz0ubqz3X_PSoZlRDNAHJ6Z0f4EhGsEN
-// https://drive.google.com/file/d/1Yz0ubqz3X_PSoZlRDNAHJ6Z0f4EhGsEN/view?usp=sharing
+
 }
