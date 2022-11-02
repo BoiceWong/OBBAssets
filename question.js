@@ -101,8 +101,9 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			resultString += "Look here for paper recommendations: <a href='https://www.obb.design/paper-resources'>OBB Paper Blog</a> <br/><br/>"
 			break;
 		case 'Europe':			
-			resultString += "Wenzhou Rice paper is accessible in most local art stores such as Boesner. Origami-Shop shipping is accessible in Europe: <a href='https://www.origami-shop.com/en/'>Origami-Shop</a> <br/><br/>"
-			break;
+			resultString += "Wenzhou Rice paper is accessible in most local art stores such as Boesner. Origami-Shop shipping is easily accessible in Europe: <a href='https://www.origami-shop.com/en/'>Origami-Shop.</a><br/> "
+				+ "Another great store in Europe is <a href='https://origami-papier.eu/'>Origami-Papier.<a/> They have plenty of paper options including 50x50cm Kami.<br/><br/>"	
+		      break;
 		case 'India':			
 			resultString += "Tissue paper from Amazon IN: <a href='https://www.amazon.in/ECO-SARRAS-Multi-Purpose-Wrapping-Stuffing/dp/B08FGHPYF6/ref=sr_1_22_sspa?crid=13D0IFQTAFJ4D&keywords=thin%2Bpaper&qid=1666994688&qu=eyJxc2MiOiIzLjUyIiwicXNhIjoiMi40MyIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=thin%2Bpaper%2Caps%2C206&sr=8-22-spons&th=1 '>Tissue Paper India</a> <br/><br/>"
 			break;
