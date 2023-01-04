@@ -111,7 +111,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			resultString += "Check various Amazons to see if they ship. There are also many handmade paper stores around with at least tissue paper. <br/><br/>"
 			break;
 		case 'Australia':			
-			resultString += "This AU online store sells handmade papers: <a href='https://www.kamipaper.com.au/collections/paper/Thai'>Kami Paper AU</a> <br/><br/>"
+			resultString += "This AU online store sells handmade papers: <a href='https://www.kamipaper.com.au/collections/artisan-paper/30GSM'>Kami Paper AU</a> <br/><br/>"
 			break;
 		case 'South America':			
 			resultString += "Search Amazon BR or local shops to ship to your country: <a href='https://www.amazon.com.br/Planeta-Brinquedos-Novaprint-48x60cm-Pacote/dp/B08TQDJP67/ref=d_pd_day0_sccl_2_3/143-0394786-8952335?pd_rd_w=SOd7Q&content-id=amzn1.sym.f8fbb395-09a0-46a4-a17c-8f7cd5155e6a&pf_rd_p=f8fbb395-09a0-46a4-a17c-8f7cd5155e6a&pf_rd_r=R18ZGQGW3VXBKTW6M8KJ&pd_rd_wg=P1Bco&pd_rd_r=a7dfae8c-688f-4c7c-a458-f5d7b2ac648a&pd_rd_i=B08TQDJP67&psc=1'>Amazon Tissue Paper</a> <br/><br/>"
