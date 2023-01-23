@@ -102,7 +102,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			break;
 		case 'Europe':			
 			resultString += "Wenzhou Rice paper is accessible in most local art stores such as Boesner. Origami-Shop shipping is easily accessible in Europe: <a href='https://www.origami-shop.com/en/'>Origami-Shop.</a><br/> "
-				+ "Another great store in Europe is <a href='https://origami-papier.eu/'>Origami-Papier.<a/> They have plenty of paper options including 50x50cm Kami.<br/><br/>"	
+				+ "Another great store in Europe is <a href='https://origami-papier.eu/'>Origami-Papier.<a/> They have plenty of paper options including 50x50cm Kami.<br/><br/>"				
 		      break;
 		case 'India':			
 			resultString += "Tissue paper from Amazon IN: <a href='https://www.amazon.in/dp/B07G58SSTS/ref=cm_sw_r_awdo_navT_g_JM60Z507S6PABYFEJE3Y'>Tissue Paper India</a> <br/><br/>"
@@ -111,7 +111,8 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			resultString += "Check various Amazons to see if they ship. There are also many handmade paper stores around with at least tissue paper. <br/><br/>"
 			break;
 		case 'Australia':			
-			resultString += "This AU online store sells handmade papers: <a href='https://www.kamipaper.com.au/collections/artisan-paper/30GSM'>Kami Paper AU</a> <br/><br/>"
+			resultString += "This AU online store sells handmade papers: <a href='https://www.kamipaper.com.au/collections/artisan-paper/30GSM'>Kami Paper AU</a> <br/>"
+			+ "Here is a cutting mat link from amazon to treat paper: <a href='https://www.amazon.com.au/Self-Healing-FOME-Construction-Non-Slip-Professional/dp/B08FM3ZP4V/ref=mp_s_a_1_6?crid=1AHDTD5YTIWPR&keywords=a1+mat&qid=1674290440&refresh=1&sprefix=a1+mat%2Caps%2C92&sr=8-6'>A1 Cutting Mat.<a/> <br/><br/>"
 			break;
 		case 'South America':			
 			resultString += "Search Amazon BR or local shops to ship to your country: <a href='https://www.amazon.com.br/Planeta-Brinquedos-Novaprint-48x60cm-Pacote/dp/B08TQDJP67/ref=d_pd_day0_sccl_2_3/143-0394786-8952335?pd_rd_w=SOd7Q&content-id=amzn1.sym.f8fbb395-09a0-46a4-a17c-8f7cd5155e6a&pf_rd_p=f8fbb395-09a0-46a4-a17c-8f7cd5155e6a&pf_rd_r=R18ZGQGW3VXBKTW6M8KJ&pd_rd_wg=P1Bco&pd_rd_r=a7dfae8c-688f-4c7c-a458-f5d7b2ac648a&pd_rd_i=B08TQDJP67&psc=1'>Amazon Tissue Paper</a> <br/><br/>"
