@@ -105,7 +105,8 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 				+ "Another great store in Europe is <a href='https://origami-papier.eu/'>Origami-Papier.<a/> They have plenty of paper options including 50x50cm Kami.<br/><br/>"				
 		      break;
 		case 'India':			
-			resultString += "Tissue paper from Amazon IN: <a href='https://www.amazon.in/dp/B07G58SSTS/ref=cm_sw_r_awdo_navT_g_JM60Z507S6PABYFEJE3Y'>Tissue Paper India</a> <br/><br/>"
+			resultString += "Tissue paper from Amazon IN: <a href='https://www.amazon.in/dp/B07G58SSTS/ref=cm_sw_r_awdo_navT_g_JM60Z507S6PABYFEJE3Y'>Tissue Paper India</a><br/>"
+			      + "MC (CMC) from Amazon IN: <a href='https://www.amazon.in/Wallcraft-Powder-Purpose-Wallpaper-Adhesive/dp/B08HD199NL/ref=sr_1_8?keywords=cmc&qid=1679439913&sr=8-8'>Methyll Cellulose India</a><br/><br/>"
 			break;
 		case 'SEA':			
 			resultString += "Check various Amazons to see if they ship. There are also many handmade paper stores around with at least tissue paper. <br/><br/>"
