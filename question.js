@@ -109,7 +109,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			      + "MC (CMC) from Amazon IN: <a href='https://www.amazon.in/Wallcraft-Powder-Purpose-Wallpaper-Adhesive/dp/B08HD199NL/ref=sr_1_8?keywords=cmc&qid=1679439913&sr=8-8'>Methyll Cellulose India</a><br/><br/>"
 			break;
 		case 'SEA':			
-			resultString += "Check various Amazons to see if they ship. There are also many handmade paper stores around with at least tissue paper. <br/><br/>"
+			resultString += "Check various Amazons to see if they ship. There are also many handmade paper stores around with at least tissue paper. For example here is a link to Tissue (Crepe) papers in the Philippines: <a href='https://papercart.ph/products/crepe-paper'>Tissue Paper PH</a><br/><br/>"
 			break;
 		case 'Australia':			
 			resultString += "This AU online store sells handmade papers: <a href='https://www.kamipaper.com.au/collections/artisan-paper/30GSM'>Kami Paper AU</a> <br/>"
