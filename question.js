@@ -108,6 +108,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			resultString += "Tissue paper from Amazon IN: <a href='https://www.amazon.in/dp/B07G58SSTS/ref=cm_sw_r_awdo_navT_g_JM60Z507S6PABYFEJE3Y'>Tissue Paper India</a><br/>"
 			      + "MC (CMC) from Amazon IN: <a href='https://www.amazon.in/Wallcraft-Powder-Purpose-Wallpaper-Adhesive/dp/B08HD199NL/ref=sr_1_8?keywords=cmc&qid=1679439913&sr=8-8'>Methyll Cellulose India</a><br/><br/>"
 		      	      + "Nara Origami is a talented Origami Designer who now sells paper for complex origami. He is a pioneer for bringing this store to India: <a href='https://mydukaan.io/naraorigami'>Nara Origami Shop</a><br/><br/>"
+		      	      + "Creeds Paper shop is another  great folder-run option for complex origami paper. <a href='https://creedspaper.shop/'>Creeds Paper Store</a><br/><br/>"
 			break;
 		case 'SEA':			
 			resultString += "Check various Amazons to see if they ship. There are also many handmade paper stores around with at least tissue paper. For example here is a link to Tissue (Crepe) papers in the Philippines: <a href='https://papercart.ph/products/crepe-paper'>Tissue Paper PH</a><br/><br/>"
